@@ -6,7 +6,7 @@
 /*   By: rhoke <rhoke@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 13:41:44 by rhoke             #+#    #+#             */
-/*   Updated: 2021/10/11 14:11:23 by rhoke            ###   ########.fr       */
+/*   Updated: 2021/10/13 14:45:39 by rhoke            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,16 +40,6 @@ int	order_check(t_node *list)
 	}
 	return (1);
 }
-
-// void	print_ptr_int(int *arr, int len)
-// {
-// 	int i;
-// 	i= 0;
-// 	while (arr[i] || i <= len)
-// 	{
-// 		printf("arr =  %d\n", arr[i++]);
-// 	}
-// }
 
 int	*list_to_arr(t_node *list)
 {

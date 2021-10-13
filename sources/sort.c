@@ -6,7 +6,7 @@
 /*   By: rhoke <rhoke@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 13:41:35 by rhoke             #+#    #+#             */
-/*   Updated: 2021/10/11 14:12:01 by rhoke            ###   ########.fr       */
+/*   Updated: 2021/10/13 14:45:45 by rhoke            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,15 +84,6 @@ void	less_five_sort(t_list *stacks)
 	else if (list_lenth == 5)
 		five_elem(stacks);
 }
-
-// void print_list(t_node *list, char c)
-// {
-// 	while (list)
-// 	{
-// 		printf("list %c == %d ord == %d\n", c, list->data, list->order);
-// 		list = list->next;
-// 	}
-// }
 
 void	pre_sort(t_list *stacks)
 {
