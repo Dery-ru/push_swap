@@ -6,7 +6,7 @@
 /*   By: rhoke <rhoke@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 13:41:35 by rhoke             #+#    #+#             */
-/*   Updated: 2021/10/11 11:55:37 by rhoke            ###   ########.fr       */
+/*   Updated: 2021/10/11 14:12:01 by rhoke            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -105,7 +105,7 @@ void	pre_sort(t_list *stacks)
 		else
 			push(&(stacks->a), &(stacks->b), "pb\n");
 	}
-	if (list_len(stacks->a) == 5)
+	if (list_len(stacks->a) <= 5)
 		less_five_sort(stacks);
 	while (list_len(stacks->b))
 		sorting(stacks, &mv);

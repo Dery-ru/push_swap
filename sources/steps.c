@@ -6,7 +6,7 @@
 /*   By: rhoke <rhoke@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/09 13:41:44 by rhoke             #+#    #+#             */
-/*   Updated: 2021/10/09 13:42:07 by rhoke            ###   ########.fr       */
+/*   Updated: 2021/10/11 14:11:23 by rhoke            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,7 @@ static void	check_dubs(t_node *list)
 
 int	order_check(t_node *list)
 {
+	check_dubs(list);
 	while (list->next)
 	{
 		if (list->data > list->next->data)
